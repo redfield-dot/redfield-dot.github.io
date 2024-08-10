@@ -171,30 +171,3 @@
           border-radius: 10px; /* Optional: Rounded corners */
         }
   }
-
-@media screen and (max-width: 768px) {
-  /* Mobile-specific styles */
-  .container {
-    width: 90%;
-    padding: 20px;
-  }
-  .text-container {
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center content vertically */
-    width: 90%;
-    max-width: 90%; /* Adjust the percentage as needed */
-    margin: 0 auto;
-    
-  }
-  .logo {
-    width: 80px; /* Adjust logo size as needed */
-    margin-bottom: 20px;
-  }
-  h1 {
-    font-size: 24px; /* Adjust font size for mobile */
-  }
-  p {
-    text-align: center; /* Center text on mobile */
-  }
-
-}

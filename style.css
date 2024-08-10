@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0; /* Whitish-gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.text-container  
+
+ {
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px; /* Optional: Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #007bff; /* Blue text */
+  font-size: 36px;
+}
+
+p {
+  color: #007bff; /* Blue text */
+  margin: 10px 0;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.coming-soon {
+  color: #007bff; /* Match the text color */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.text-container {
+  display: flex;
+  align-items: left;
+  padding: 40px;
+  width: 750px;
+  /* ... other styles ... */
+}
+
+.logo {
+  width: 100px; /* Adjust the width as needed */
+  margin-right: 20px;
+  filter: invert(34%) sepia(42%) saturate(6476%) hue-rotate(201deg) brightness(104%) contrast(103%);
+}
+
+.text-content {
+  flex-grow: 1;
+}
+
+.button {
+  background-color: #007bff; /* Blue background */
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px; /* Optional: Rounded corners */
+}

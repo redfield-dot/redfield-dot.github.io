@@ -29,6 +29,7 @@ h1 {
 p {
   color: #007bff; /* Blue text */
   margin: 10px 0;
+  text-align: left;
 }
 
 button {
@@ -46,6 +47,7 @@ button {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 18px;
+  text-align: center;
 }
 
 .text-container {
